@@ -132,10 +132,6 @@ h1 {
     display: none;
   }
 
-  .submenu li {
-    
-  }
-
   .navigation li:hover .submenu {
     position: absolute;
     display: inline-block;
