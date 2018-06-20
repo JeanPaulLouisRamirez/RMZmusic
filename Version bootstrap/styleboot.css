@@ -10,16 +10,15 @@ body {
   }
 
   .container-fluid {
-    padding: auto ;
     font-size: 10px;
     border: 1px solid white;
     text-align: center;
     letter-spacing: 3px;
     }
   
-    .container-fluid a {
-      border: 1px solid white;
-      color: white;
+  .container-fluid a {
+    border: 1px solid black;
+    color: white;
     }
 
   .container-fluid a.home {
@@ -28,34 +27,51 @@ body {
     letter-spacing: 10px;
   }
 
+  .container-fluid a:hover {
+    background: black;
+    border: 1px solid black;
+    color: rgb(255, 219, 101);
+    text-decoration: none;
+  }
+
+  #actual {
+    color: rgb(255, 219, 101);
+  }
+
   #menu {
-    margin: 50px 17px; 
+    margin: 54px 17px; 
+    padding: 0; 
   }
 
   #RMZ {
-    margin : 20px 0; 
+    margin : 15px 0; 
+    border: 1px solid white;
+  }
+
+  #colonne{
+    border: 1px solid white;
   }
   .container-fluid .homeactual {
     font-family: 'Lucida Grande';
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 10px;
     color: rgb(255, 219, 101);
   }
 
   .container-fluid a.logofacebook {
-    padding: 15px 10px;
+    padding: 0px 0px;
   }
   .container-fluid a.logofacebook:hover {
     opacity:0.60;
   }
   .container-fluid a.logosoundcloud {
-    padding: 15px 10px;
+    padding: 0px 0px;
   }
   .container-fluid a.logosoundcloud:hover {
     opacity:0.60;
   }
   .container-fluid a.logoinstagram {
-    padding: 18px 10px;
+    padding: 0px 0px;
   }
   .container-fluid a.logoinstagram:hover {
     opacity:0.60;
@@ -63,6 +79,30 @@ body {
 
   #logo {
     margin : 42px 0;
+    padding: 0; 
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  #music {
+    margin: 54px 17px;
+  }
+
+  .container-fluid li {
+    border: 1px solid white;
+    color: white;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 1;
+  }
+  .container-fluid li:hover .submenu {
+    position: absolute;
+    display: inline-block;
+   
+    z-index: 100000; 
   }
 
   .news {
