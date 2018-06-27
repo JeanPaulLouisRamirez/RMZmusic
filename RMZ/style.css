@@ -94,6 +94,7 @@ h1 {
     text-align: center;
     width: 100%;
     letter-spacing: 3px;
+    height : 125px; 
   }
 
   .navigation a {
@@ -115,17 +116,79 @@ h1 {
     color: white;
     display: inline-block;
     margin: auto auto;
+    padding: 30px 0 0 0;
+    text-decoration: none;
+    opacity: 1;
+    width: 95px;
+  }
+
+  .navigationsm {
+    font-size: 10px;
+    border: 1px solid black;
+    padding: auto 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 3px;
+    height : 125px; 
+  }
+
+  .navigationsm a {
+    background: black;
+    border: 1px solid black;
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    margin: auto auto;
     padding: 10px;
     text-decoration: none;
     opacity: 1;
   }
 
+  .navigationsm li {
+    background: black;
+    border: 1px solid black;
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    margin: auto auto;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    opacity: 1;
+    width: 95px;
+  }
+
+  #sub {
+    padding:5px 3px 0 0;
+    margin:0;
+  }
+
   .navigation a.home {
     font-family: 'Lucida Grande';
     font-size: 40px;
-    padding: 15px 0px 10px 10px;
-    margin:0 270px 0 0;
+    border : 1px solid black; 
+    margin : auto auto auto 5%;
     letter-spacing: 10px;
+    float: left;
+  }
+
+  .navigation a.homeactualmd{
+    font-family: 'Lucida Grande';
+    font-size: 40px;
+    float: left;
+    letter-spacing: 10px;
+    color: rgb(255, 219, 101);
+    margin : auto auto auto 5%;
+    border : 1px solid black; 
+  }
+  
+  .navigation a.homeactualsm{
+    font-family: 'Lucida Grande';
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: rgb(255, 219, 101);
+    float: center;
+    border: 1px solid black;
   }
 
   .submenu {
@@ -133,11 +196,10 @@ h1 {
   }
 
   .navigation li:hover .submenu {
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    display: table-row;
     top: 40%;
-    left: 49.5%; 
-    padding:0;
+    padding:auto;
     z-index: 100000; 
   }
 
@@ -171,15 +233,8 @@ h1 {
     color: rgb(255, 219, 101);
     text-decoration: none;
   }
+
 .navigation a.actual {
-  color: rgb(255, 219, 101);
-}
-.navigation a.homeactual{
-  font-family: 'Lucida Grande';
-  font-size: 40px;
-  padding: 15px 0px 10px 10px;
-  margin:0 270px 0 0;
-  letter-spacing: 10px;
   color: rgb(255, 219, 101);
 }
 
@@ -188,7 +243,7 @@ h1 {
   color: rgb(255, 219, 101);
 }
 
-.about {
+.aboutmd {
   border: 1px solid black;
   width: 100%;
   margin: auto auto; 
@@ -196,12 +251,12 @@ h1 {
   position: relative;
 }
 
-.about div{
+.aboutmd div{
   display: inline-block;
   margin: auto auto;
-  
 }
-.textabout {
+
+.textaboutmd {
   position: absolute;
   top: 9%; 
   margin: 0; 
@@ -213,11 +268,36 @@ h1 {
   border-style: none none none solid; 
 }
 
-.about div.photoabout {
+.aboutmd div.photoabout {
   margin: auto 10%; 
   padding: auto; 
 }
-.news {
+
+.aboutsm {
+  border: 1px solid black;
+  width: 100%;
+  margin: auto auto; 
+  padding: auto auto ; 
+  position: relative;
+}
+
+.aboutsm div.photoabout{
+margin : auto auto;
+}
+
+.textaboutsm {
+  top: 9%; 
+  text-align: center;
+  margin: 0 10%; 
+  padding: 50px 0px 50px 0; 
+  color: white; 
+  font-size: 10px; 
+  letter-spacing: 3px; 
+  border: 1px solid rgb(255, 219, 101); 
+  border-style: solid none none none; 
+}
+
+.newsmd {
   font-family: 'Lucida Grande';
   color: rgb(255, 219, 101);
   font-size: 40px;
@@ -227,9 +307,24 @@ h1 {
   padding:3% 0;
   margin:8% 20%; 
 }
-.news div{
+.newsmd div{
   font-size: 200%; 
 }
+
+.newssm {
+  font-family: 'Lucida Grande';
+  color: rgb(255, 219, 101);
+  font-size: 20px;
+  letter-spacing: 10px;
+  border: 1px solid white; 
+  text-align: center;
+  padding:3% 0;
+  margin:8% 8%; 
+}
+.newssm div{
+  font-size: 100%; 
+}
+
 .tourdates {
   text-align: center;
   font-size: 38px;
